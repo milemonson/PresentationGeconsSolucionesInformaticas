@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+    <rect width="1200" height="800" fill="#d8d6cd"/>
+    <circle cx="300" cy="400" r="220" fill="#ff5b1f"/>
+    <circle cx="900" cy="400" r="220" fill="#1a1a1a"/>
+    <text x="600" y="720" text-anchor="middle" font-family="Inter, sans-serif" font-size="44" font-weight="500" fill="#1a1a1a">project 04</text>
+</svg>
