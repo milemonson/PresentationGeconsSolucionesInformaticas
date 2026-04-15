@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "WebFetch(domain:www.reem.dev)",
-      "Bash(curl -sL https://www.reem.dev/)"
-    ]
-  }
-}
