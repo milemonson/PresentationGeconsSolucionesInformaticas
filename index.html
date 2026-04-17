@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Portfolio personal" />
+        <meta name="description" content="Portfolio — Consultoría y desarrollo Odoo" />
         <title>Portfolio</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,21 +22,21 @@
         <header class="site-header">
             <a href="#top" class="site-header__logo">
                 <img src="assets/logo.svg" alt="Logo" />
-                <span>tu-nombre</span>
+                <span>numilén &amp; [tu-nombre]</span>
             </a>
 
             <nav class="site-nav" aria-label="Principal">
                 <ul>
+                    <li><a href="#nosotros">Nosotros</a></li>
                     <li><a href="#servicios">Servicios</a></li>
                     <li><a href="#proyectos">Proyectos</a></li>
-                    <li><a href="#proceso">Proceso</a></li>
-                    <li><a href="#precios">Precios</a></li>
+                    <li><a href="#stack">Stack</a></li>
                     <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
 
             <a href="#contacto" class="btn btn--primary">
-                Reservar llamada
+                Contactanos
                 <span class="btn__arrow">&rarr;</span>
             </a>
         </header>
@@ -47,17 +47,19 @@
                 <div class="hero__inner">
                     <span class="eyebrow">
                         <span class="dot"></span>
-                        Disponible para nuevos proyectos
+                        Disponibles para nuevos proyectos
                     </span>
 
                     <h1 class="hero__title">
-                        Construimos <em>trafico y experiencia</em>
-                        que <em>solucionan</em>
-                        gestiones empresariales e individuales.
+                        Implementamos, <em>personalizamos</em>
+                        y <em>escalamos</em>
+                        Odoo para empresas reales.
                     </h1>
 
                     <p class="hero__lead">
-                        Gestion y desarrollo, consultas y estrategias para tu negocio
+                        Consultoría funcional y desarrollo técnico: módulos a medida,
+                        integraciones con APIs, trazabilidad compleja y reportes financieros
+                        adaptados a la operación de cada cliente.
                     </p>
 
                     <div class="hero__actions">
@@ -66,7 +68,7 @@
                             <span class="btn__arrow">&rarr;</span>
                         </a>
                         <a href="#proyectos" class="btn btn--ghost">
-                            Ver trabajos
+                            Ver casos
                         </a>
                     </div>
 
@@ -76,20 +78,89 @@
                 </div>
             </section>
 
-            <section class="marquee" aria-label="Clientes">
+            <section class="marquee" aria-label="Industrias">
                 <div class="marquee__track">
-                    <span>Cliente 01</span>
-                    <span>Cliente 02</span>
-                    <span>Cliente 03</span>
-                    <span>Cliente 04</span>
-                    <span>Cliente 05</span>
-                    <span>Cliente 06</span>
-                    <span>Cliente 01</span>
-                    <span>Cliente 02</span>
-                    <span>Cliente 03</span>
-                    <span>Cliente 04</span>
-                    <span>Cliente 05</span>
-                    <span>Cliente 06</span>
+                    <span>Manufactura</span>
+                    <span>Retail</span>
+                    <span>E-commerce</span>
+                    <span>Logística</span>
+                    <span>Inmobiliaria</span>
+                    <span>Gastronomía</span>
+                    <span>Arquitectura</span>
+                    <span>Agro</span>
+                    <span>Manufactura</span>
+                    <span>Retail</span>
+                    <span>E-commerce</span>
+                    <span>Logística</span>
+                    <span>Inmobiliaria</span>
+                    <span>Gastronomía</span>
+                    <span>Arquitectura</span>
+                    <span>Agro</span>
+                </div>
+            </section>
+
+            <section class="about" id="nosotros">
+                <header class="section-head">
+                    <span class="section-head__tag">[ Nosotros ]</span>
+                    <h2 class="section-head__title">
+                        Un equipo de <em>dos</em>
+                        con foco en Odoo
+                    </h2>
+                    <p class="section-head__lead">
+                        Combinamos consultoría funcional y desarrollo técnico para entregar
+                        soluciones que entienden tanto el negocio como la arquitectura del sistema.
+                    </p>
+                </header>
+
+                <div class="about__grid">
+                    <article class="profile">
+                        <div class="profile__media">
+                            <img src="assets/profile-numilen.svg" alt="Numilén Monzón" />
+                        </div>
+                        <div class="profile__body">
+                            <span class="profile__role">Consultora &amp; Desarrolladora Odoo</span>
+                            <h3>Numilén Monzón</h3>
+                            <p>
+                                Desde 2022 ayuda a empresas a implementar, personalizar y escalar Odoo.
+                                Especializada en desarrollo de módulos a medida, integraciones con APIs
+                                y hardware externo, y trazabilidad compleja de procesos. Trabaja con
+                                equipos reales, en industrias reales — manufactura, retail, logística,
+                                inmobiliaria, servicios y más.
+                            </p>
+                            <ul class="profile__links">
+                                <li><a href="https://www.linkedin.com/in/numilenmonzon/" target="_blank" rel="noopener">LinkedIn &rarr;</a></li>
+                                <li><a href="https://github.com/Numilenm" target="_blank" rel="noopener">GitHub &rarr;</a></li>
+                                <li><a href="mailto:numilen.geconsas@gmail.com">Email &rarr;</a></li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="profile">
+                        <div class="profile__media">
+                            <img src="assets/profile-02.svg" alt="[tu-nombre]" />
+                        </div>
+                        <div class="profile__body">
+                            <span class="profile__role">[ rol profesional ]</span>
+                            <h3>[ tu nombre ]</h3>
+                            <p>
+                                [ bio — pendiente de completar con tu información personal,
+                                trayectoria, especialización y áreas de trabajo ]
+                            </p>
+                            <ul class="profile__links">
+                                <li><a href="#" target="_blank" rel="noopener">LinkedIn &rarr;</a></li>
+                                <li><a href="#" target="_blank" rel="noopener">GitHub &rarr;</a></li>
+                                <li><a href="mailto:tu@email.com">Email &rarr;</a></li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="about__long">
+                    <p>
+                        No entregamos implementaciones genéricas. Entendemos el proceso antes
+                        de tocar una línea de código. Trabajamos con Odoo 15, 16, 17 y 18 Enterprise
+                        en entornos AWS, on-premise y Odoo.sh.
+                    </p>
                 </div>
             </section>
 
@@ -97,192 +168,357 @@
                 <header class="section-head">
                     <span class="section-head__tag">[ Servicios ]</span>
                     <h2 class="section-head__title">
-                        Lo que <em>ofrezco</em>
+                        Lo que <em>ofrecemos</em>
                     </h2>
                     <p class="section-head__lead">
-                        Soluciones digitales completas para hacer crecer tu marca.
+                        Soluciones completas sobre Odoo, desde el relevamiento funcional
+                        hasta el desarrollo técnico y el mantenimiento evolutivo.
                     </p>
                 </header>
 
                 <div class="services__grid">
                     <article class="service-card">
                         <div class="service-card__media">
-                            <img src="assets/service-01.svg" alt="Servicio 1" />
+                            <img src="assets/service-01.svg" alt="Implementación funcional" />
                         </div>
-                        <h3>Diseño y desarrollo web</h3>
-                        <p>Sitios a medida, optimizados para velocidad y SEO.</p>
+                        <span class="service-card__num">01</span>
+                        <h3>Implementación funcional</h3>
+                        <p>
+                            Relevamiento de procesos, configuración de módulos, parametrización
+                            y puesta en marcha de Odoo adaptado a la operación real del negocio.
+                        </p>
                     </article>
 
                     <article class="service-card">
                         <div class="service-card__media">
-                            <img src="assets/service-02.svg" alt="Servicio 2" />
+                            <img src="assets/service-02.svg" alt="Desarrollo de módulos custom" />
                         </div>
-                        <h3>Consultoría estratégica</h3>
-                        <p>Auditorías y estrategia digital orientada a conversión.</p>
+                        <span class="service-card__num">02</span>
+                        <h3>Desarrollo de módulos custom</h3>
+                        <p>
+                            Construcción de módulos a medida: nuevos modelos, vistas, reportes,
+                            lógica de negocio específica, disparadores y automatizaciones.
+                        </p>
                     </article>
 
                     <article class="service-card">
                         <div class="service-card__media">
-                            <img src="assets/service-03.svg" alt="Servicio 3" />
+                            <img src="assets/service-03.svg" alt="Integraciones con APIs" />
                         </div>
-                        <h3>Diseño UI/UX</h3>
-                        <p>Interfaces intuitivas centradas en el usuario.</p>
+                        <span class="service-card__num">03</span>
+                        <h3>Integración con APIs y sistemas externos</h3>
+                        <p>
+                            Conexión de Odoo con sistemas de terceros vía REST/JSON-RPC: couriers,
+                            ERPs externos, marketplaces, hardware (relojes de fichaje), sistemas propios.
+                        </p>
                     </article>
 
                     <article class="service-card">
                         <div class="service-card__media">
-                            <img src="assets/service-04.svg" alt="Servicio 4" />
+                            <img src="assets/service-04.svg" alt="Reportes financieros" />
                         </div>
-                        <h3>Automatizaciones con IA</h3>
-                        <p>Flujos inteligentes que ahorran tiempo y dinero.</p>
+                        <span class="service-card__num">04</span>
+                        <h3>Reportes financieros a medida</h3>
+                        <p>
+                            Reportes contables y financieros personalizados con QWeb, adaptados
+                            a la estructura y necesidades de cada empresa.
+                        </p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-card__media">
+                            <img src="assets/service-01.svg" alt="Migración entre versiones" />
+                        </div>
+                        <span class="service-card__num">05</span>
+                        <h3>Migración entre versiones</h3>
+                        <p>
+                            Migración de datos, módulos y configuraciones entre versiones de Odoo,
+                            minimizando el impacto operativo.
+                        </p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-card__media">
+                            <img src="assets/service-02.svg" alt="Soporte y mantenimiento" />
+                        </div>
+                        <span class="service-card__num">06</span>
+                        <h3>Soporte &amp; mantenimiento</h3>
+                        <p>
+                            Acompañamiento post-implementación, resolución de bugs, ajustes
+                            funcionales y mantenimiento evolutivo.
+                        </p>
                     </article>
                 </div>
             </section>
 
-            <section class="reveal" id="proyectos" aria-label="Proyectos destacados">
+            <section class="reveal" id="proyectos" aria-label="Casos destacados">
                 <div class="reveal__sticky">
                     <div class="reveal__heading">
-                        <span class="section-head__tag">[ Proyectos ]</span>
+                        <span class="section-head__tag">[ Casos destacados ]</span>
                         <h2>
-                            Trabajos <em>recientes</em>
-                            con clientes reales.
+                            Proyectos <em>reales</em>
+                            en industrias reales.
                         </h2>
                     </div>
 
                     <div class="reveal__stage" id="revealStage">
+
                         <article class="reveal-card" data-index="0">
                             <div class="reveal-card__media">
-                                <img src="assets/project-01.svg" alt="Proyecto 1" />
+                                <img src="assets/project-01.svg" alt="Progomex" />
                             </div>
                             <div class="reveal-card__meta">
-                                <span class="reveal-card__tag">Finanzas</span>
-                                <h3>Proyecto Uno</h3>
-                                <p>Descripción breve del proyecto y los resultados obtenidos.</p>
-                                <a href="#" class="link">Ver caso &rarr;</a>
+                                <span class="reveal-card__tag">Manufactura · México</span>
+                                <h3>Progomex</h3>
+                                <p>
+                                    Módulo custom de análisis de lotes con trazabilidad extendida:
+                                    de la orden de compra hasta la venta final, incluyendo costos
+                                    en destino, producción y reloteo. Sobre AWS.
+                                </p>
+                                <ul class="reveal-card__tags">
+                                    <li>Trazabilidad</li>
+                                    <li>MRP</li>
+                                    <li>Costos</li>
+                                </ul>
                             </div>
                         </article>
 
                         <article class="reveal-card" data-index="1">
                             <div class="reveal-card__media">
-                                <img src="assets/project-02.svg" alt="Proyecto 2" />
+                                <img src="assets/project-02.svg" alt="Sportcom" />
                             </div>
                             <div class="reveal-card__meta">
-                                <span class="reveal-card__tag">Diseño</span>
-                                <h3>Proyecto Dos</h3>
-                                <p>Descripción breve del proyecto y los resultados obtenidos.</p>
-                                <a href="#" class="link">Ver caso &rarr;</a>
+                                <span class="reveal-card__tag">Retail · Argentina</span>
+                                <h3>Sportcom</h3>
+                                <p>
+                                    Integración custom entre Odoo y servidor interno con exportación TXT
+                                    para Planexware (Krikos360). En desarrollo: integración bidireccional
+                                    con la API de Ocasa (logística).
+                                </p>
+                                <ul class="reveal-card__tags">
+                                    <li>Integración</li>
+                                    <li>Logística</li>
+                                    <li>On-premise</li>
+                                </ul>
                             </div>
                         </article>
 
                         <article class="reveal-card" data-index="2">
                             <div class="reveal-card__media">
-                                <img src="assets/project-03.svg" alt="Proyecto 3" />
+                                <img src="assets/project-03.svg" alt="Papalotes Tacos and Grill" />
                             </div>
                             <div class="reveal-card__meta">
-                                <span class="reveal-card__tag">Desarrollo</span>
-                                <h3>Proyecto Tres</h3>
-                                <p>Descripción breve del proyecto y los resultados obtenidos.</p>
-                                <a href="#" class="link">Ver caso &rarr;</a>
+                                <span class="reveal-card__tag">Gastronomía · México</span>
+                                <h3>Papalotes Tacos and Grill</h3>
+                                <p>
+                                    Más de 6 reportes financieros custom con QWeb para un grupo
+                                    multi-empresa de franquicias, con lógica contable y formato
+                                    específicos para uso gerencial.
+                                </p>
+                                <ul class="reveal-card__tags">
+                                    <li>QWeb</li>
+                                    <li>Multi-empresa</li>
+                                    <li>Finanzas</li>
+                                </ul>
                             </div>
                         </article>
 
                         <article class="reveal-card" data-index="3">
                             <div class="reveal-card__media">
-                                <img src="assets/project-04.svg" alt="Proyecto 4" />
+                                <img src="assets/project-04.svg" alt="Solarix" />
                             </div>
                             <div class="reveal-card__meta">
-                                <span class="reveal-card__tag">E-commerce</span>
-                                <h3>Proyecto Cuatro</h3>
-                                <p>Descripción breve del proyecto y los resultados obtenidos.</p>
-                                <a href="#" class="link">Ver caso &rarr;</a>
+                                <span class="reveal-card__tag">Inmobiliaria · México</span>
+                                <h3>Solarix</h3>
+                                <p>
+                                    Gestión de proyectos con portal para más de 1.000 empleados
+                                    e integración con relojes de fichaje para registrar presencia
+                                    y horas automáticamente.
+                                </p>
+                                <ul class="reveal-card__tags">
+                                    <li>Portal</li>
+                                    <li>Hardware</li>
+                                    <li>HR</li>
+                                </ul>
                             </div>
                         </article>
+
+                        <article class="reveal-card" data-index="4">
+                            <div class="reveal-card__media">
+                                <img src="assets/project-01.svg" alt="ESN Cursor" />
+                            </div>
+                            <div class="reveal-card__meta">
+                                <span class="reveal-card__tag">E-commerce · MX · CL · PE</span>
+                                <h3>ESN Cursor</h3>
+                                <p>
+                                    Integración de Odoo con Yuju para unificar ventas de MercadoLibre,
+                                    Amazon y otros marketplaces en múltiples países. Caso de éxito
+                                    publicado en el sitio oficial de Odoo.
+                                </p>
+                                <ul class="reveal-card__tags">
+                                    <li>Marketplaces</li>
+                                    <li>Multi-país</li>
+                                    <li>Caso Odoo</li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <article class="reveal-card" data-index="5">
+                            <div class="reveal-card__media">
+                                <img src="assets/project-02.svg" alt="Esatto Arte in Casa" />
+                            </div>
+                            <div class="reveal-card__meta">
+                                <span class="reveal-card__tag">E-commerce · México</span>
+                                <h3>Esatto Arte in Casa</h3>
+                                <p>
+                                    Automatizaciones y disparadores sobre el flujo de ventas para
+                                    un MercadoLíder Platinum y Top Seller en Amazon: estados custom
+                                    y lógica activada por cambios en los pedidos.
+                                </p>
+                                <ul class="reveal-card__tags">
+                                    <li>Automatización</li>
+                                    <li>Ventas</li>
+                                    <li>Disparadores</li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <article class="reveal-card" data-index="6">
+                            <div class="reveal-card__media">
+                                <img src="assets/project-03.svg" alt="Madema" />
+                            </div>
+                            <div class="reveal-card__meta">
+                                <span class="reveal-card__tag">Servicios · México</span>
+                                <h3>Madema</h3>
+                                <p>
+                                    Implementación y configuración completa del módulo de Inventario
+                                    para una empresa de limpieza: kardex, control de stock, cantidades
+                                    y horas operativas.
+                                </p>
+                                <ul class="reveal-card__tags">
+                                    <li>Inventario</li>
+                                    <li>Kardex</li>
+                                    <li>Implementación</li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <article class="reveal-card" data-index="7">
+                            <div class="reveal-card__media">
+                                <img src="assets/project-04.svg" alt="Solana" />
+                            </div>
+                            <div class="reveal-card__meta">
+                                <span class="reveal-card__tag">Arquitectura · México</span>
+                                <h3>Solana</h3>
+                                <p>
+                                    Reportes y vistas a medida que replican la estructura de los
+                                    Excel del estudio, facilitando la transición a Odoo sin cambiar
+                                    la forma de trabajar del equipo.
+                                </p>
+                                <ul class="reveal-card__tags">
+                                    <li>Reportes</li>
+                                    <li>UX</li>
+                                    <li>Adaptación</li>
+                                </ul>
+                            </div>
+                        </article>
+
                     </div>
                 </div>
             </section>
 
-            <section class="process" id="proceso">
+            <section class="oss" id="opensource">
                 <header class="section-head">
-                    <span class="section-head__tag">[ Proceso ]</span>
+                    <span class="section-head__tag">[ Open Source ]</span>
                     <h2 class="section-head__title">
-                        Cómo <em>trabajamos</em> juntos
+                        Módulos <em>gratuitos</em>
+                        publicados
                     </h2>
                 </header>
 
-                <ol class="process__list">
-                    <li class="process__item">
-                        <span class="process__num">01</span>
-                        <h3>Descubrimiento</h3>
-                        <p>Conversamos sobre tus objetivos, audiencia y necesidades.</p>
-                    </li>
-                    <li class="process__item">
-                        <span class="process__num">02</span>
-                        <h3>Diseño</h3>
-                        <p>Creo prototipos y propuestas visuales centradas en tu marca.</p>
-                    </li>
-                    <li class="process__item">
-                        <span class="process__num">03</span>
-                        <h3>Desarrollo</h3>
-                        <p>Construyo el sitio con código limpio, rápido y mantenible.</p>
-                    </li>
-                    <li class="process__item">
-                        <span class="process__num">04</span>
-                        <h3>Entrega</h3>
-                        <p>Lanzamos el proyecto y te acompaño con soporte continuo.</p>
-                    </li>
-                </ol>
+                <div class="oss__grid">
+                    <article class="oss-card">
+                        <header class="oss-card__head">
+                            <span class="oss-card__version">Odoo 16</span>
+                            <h3>income_v16</h3>
+                        </header>
+                        <p>
+                            Módulo que permite asociar una cuenta contable de ingresos
+                            directamente a un contacto.
+                        </p>
+                        <a class="link" href="https://github.com/Numilenm/income_v16" target="_blank" rel="noopener">
+                            Ver en GitHub &rarr;
+                        </a>
+                    </article>
+
+                    <article class="oss-card">
+                        <header class="oss-card__head">
+                            <span class="oss-card__version">Localización MX</span>
+                            <h3>contact_mx_cfdi</h3>
+                        </header>
+                        <p>
+                            Extiende el formulario de contactos con datos CFDI (RFC, régimen
+                            fiscal, uso de CFDI) para facilitar la emisión de facturas electrónicas.
+                        </p>
+                        <a class="link" href="https://github.com/Numilenm/contact_mx_cfdi" target="_blank" rel="noopener">
+                            Ver en GitHub &rarr;
+                        </a>
+                    </article>
+                </div>
             </section>
 
-            <section class="pricing" id="precios">
+            <section class="stack" id="stack">
                 <header class="section-head">
-                    <span class="section-head__tag">[ Precios ]</span>
+                    <span class="section-head__tag">[ Stack técnico ]</span>
                     <h2 class="section-head__title">
-                        Planes <em>simples</em> y claros
+                        Herramientas con las que <em>trabajamos</em>
                     </h2>
                 </header>
 
-                <div class="pricing__grid">
-                    <article class="plan">
-                        <header class="plan__head">
-                            <h3>Starter</h3>
-                            <p class="plan__price">$999</p>
-                        </header>
-                        <ul class="plan__features">
-                            <li>Landing page de una sección</li>
-                            <li>Diseño responsive</li>
-                            <li>Optimización SEO básica</li>
-                            <li>Entrega en 7 días</li>
+                <div class="stack__wrap">
+                    <div class="stack__group">
+                        <h4>Lenguajes &amp; framework</h4>
+                        <ul>
+                            <li>Python</li>
+                            <li>XML / QWeb</li>
+                            <li>PostgreSQL</li>
+                            <li>Odoo 15 · 16 · 17 · 18 Enterprise</li>
                         </ul>
-                        <a href="#contacto" class="btn btn--ghost">Elegir plan</a>
-                    </article>
+                    </div>
 
-                    <article class="plan plan--featured">
-                        <header class="plan__head">
-                            <h3>Premium</h3>
-                            <p class="plan__price">desde $2.000</p>
-                        </header>
-                        <ul class="plan__features">
-                            <li>Sitio multipágina a medida</li>
-                            <li>CMS y panel de administración</li>
-                            <li>Animaciones e integraciones</li>
-                            <li>Soporte por 30 días</li>
+                    <div class="stack__group">
+                        <h4>Infraestructura</h4>
+                        <ul>
+                            <li>AWS</li>
+                            <li>Odoo.sh</li>
+                            <li>On-premise</li>
+                            <li>Docker</li>
+                            <li>Git</li>
                         </ul>
-                        <a href="#contacto" class="btn btn--primary">Elegir plan</a>
-                    </article>
+                    </div>
 
-                    <article class="plan">
-                        <header class="plan__head">
-                            <h3>Custom</h3>
-                            <p class="plan__price">a medida</p>
-                        </header>
-                        <ul class="plan__features">
-                            <li>Proyectos a gran escala</li>
-                            <li>E-commerce y plataformas</li>
-                            <li>Equipo dedicado</li>
-                            <li>Soporte continuo</li>
+                    <div class="stack__group">
+                        <h4>Integraciones</h4>
+                        <ul>
+                            <li>REST / JSON-RPC</li>
+                            <li>Hardware (relojes de fichaje)</li>
+                            <li>Marketplaces (Yuju, ML, Amazon)</li>
+                            <li>Couriers (Ocasa, Planexware)</li>
                         </ul>
-                        <a href="#contacto" class="btn btn--ghost">Cotizar</a>
-                    </article>
+                    </div>
+
+                    <div class="stack__group">
+                        <h4>Módulos funcionales</h4>
+                        <ul>
+                            <li>Inventario &amp; Almacén</li>
+                            <li>Manufactura / MRP</li>
+                            <li>Contabilidad &amp; Finanzas</li>
+                            <li>Ventas &amp; CRM</li>
+                            <li>Compras &amp; Requisiciones</li>
+                            <li>Proyectos &amp; Tareas</li>
+                            <li>E-commerce / Sitio web</li>
+                        </ul>
+                    </div>
                 </div>
             </section>
 
@@ -290,14 +526,20 @@
                 <div class="cta__inner">
                     <span class="section-head__tag">[ Contacto ]</span>
                     <h2>
-                        ¿Listo para <em>empezar</em>
-                        tu próximo proyecto?
+                        ¿Querés <em>implementar</em> o
+                        <em>potenciar</em> tu Odoo?
                     </h2>
-                    <p>Cuéntame tu idea y conversemos.</p>
-                    <a href="mailto:tu@email.com" class="btn btn--primary">
-                        Escribime
-                        <span class="btn__arrow">&rarr;</span>
-                    </a>
+                    <p>Contanos tu caso y armamos la solución que tu operación necesita.</p>
+
+                    <div class="cta__actions">
+                        <a href="mailto:numilen.geconsas@gmail.com" class="btn btn--primary">
+                            Escribinos
+                            <span class="btn__arrow">&rarr;</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/numilenmonzon/" class="btn btn--ghost" target="_blank" rel="noopener">
+                            LinkedIn
+                        </a>
+                    </div>
                 </div>
             </section>
 
@@ -307,28 +549,28 @@
             <div class="site-footer__top">
                 <a href="#top" class="site-footer__brand">
                     <img src="assets/logo.svg" alt="Logo" />
-                    <span>tu-nombre</span>
+                    <span>numilén &amp; [tu-nombre]</span>
                 </a>
 
                 <nav aria-label="Pie de página">
                     <ul>
+                        <li><a href="#nosotros">Nosotros</a></li>
                         <li><a href="#servicios">Servicios</a></li>
                         <li><a href="#proyectos">Proyectos</a></li>
-                        <li><a href="#proceso">Proceso</a></li>
-                        <li><a href="#precios">Precios</a></li>
+                        <li><a href="#stack">Stack</a></li>
                     </ul>
                 </nav>
 
                 <ul class="site-footer__social">
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">LinkedIn</a></li>
-                    <li><a href="#">X / Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/in/numilenmonzon/" target="_blank" rel="noopener">LinkedIn</a></li>
+                    <li><a href="https://github.com/Numilenm" target="_blank" rel="noopener">GitHub</a></li>
+                    <li><a href="mailto:numilen.geconsas@gmail.com">Email</a></li>
                 </ul>
             </div>
 
             <div class="site-footer__bottom">
-                <small>&copy; <span id="year"></span> Gecons Soluciones Digitales . Todos los derechos reservados.</small>
-                <small>Hecho con cuidado.</small>
+                <small>&copy; <span id="year"></span> Numilén Monzón &amp; [tu-nombre]. Todos los derechos reservados.</small>
+                <small>Hecho con Odoo en mente.</small>
             </div>
         </footer>
 
