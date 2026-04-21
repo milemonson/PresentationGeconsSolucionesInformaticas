@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 100" font-family="'Helvetica Neue', 'Helvetica', Arial, sans-serif">
+  <title>Gecons · Monocromo</title>
+  <rect width="340" height="100" fill="#0F0F0F"/>
+  <g transform="translate(50,50)">
+    <path d="M 0,-32 A 32,32 0 1,1 -0.001,-32 Z M 0,-22 A 22,22 0 1,0 0.001,-22 Z M 18,-32 L 32,-32 L 32,-18 L 18,-18 Z" fill="#FFFFFF" fill-rule="evenodd"/>
+    <rect x="-46" y="-4" width="92" height="8" fill="#FFFFFF"/>
+    <rect x="-52" y="-3" width="3" height="6" fill="#FFFFFF"/>
+    <rect x="-49" y="-4" width="3" height="8" fill="#0F0F0F"/>
+  </g>
+  <text x="108" y="64" font-size="52" font-weight="600" fill="#FFFFFF" letter-spacing="-2">econs</text>
+</svg>
