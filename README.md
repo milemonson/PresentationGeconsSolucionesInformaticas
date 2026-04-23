@@ -8,35 +8,14 @@ Sitio web profesional que presenta los servicios de consultoría empresarial y s
 - **Numilén Monzón** — Odoo consultant & developer
 - **Milena Monzón** — Front-end dev, data analyst & digital marketing
 
-## 🏗️ Estructura del Proyecto
-
-```
-Portfolio/
-├── index.html              # HTML semántico principal
-├── css/
-│   └── styles.css          # Estilos CSS con custom properties
-├── js/
-│   └── script.js           # Interactividad (scroll, reveal, smooth scroll)
-├── assets/                 # Imágenes, SVGs, logos
-│   ├── gecons_*.svg        # Logos de gecons
-│   ├── profile-*.svg       # Avatares de perfil
-│   ├── og-cover.png        # Open Graph preview (1200x630)
-│   ├── numilen.png         # Foto Numilén
-│   ├── milena.png          # Foto Milena
-│   ├── *.png               # Casos (Progomex, Esatto, Madema, etc.)
-│   ├── *.svg               # Logos de clientes
-│   └── manifest.webmanifest
-└── README.md               # Este archivo
-```
 
 ## 🎨 Tecnologías
 
 - **HTML5** — Semántico (header, main, section, article, footer)
 - **CSS3** — Custom properties, BEM naming, responsive design
 - **JavaScript** — Vanilla JS (sin frameworks)
-- **Fonts** — Inter (Google Fonts)
 - **SEO** — Meta tags, Schema.org JSON-LD, Open Graph
-- **Analytics** — Meta Pixel (Facebook Conversions API)
+- **Analytics** — Meta Pixel (Facebook Conversions API) Google search adds
 
 ## ✨ Características Principales
 
@@ -64,16 +43,11 @@ Botones para contacto: Email + WhatsApp con mensaje pre-armado
 ### 7. **SEO Optimizado**
 - Meta tags completos
 - Schema.org Organization + WebSite + FAQPage
-- Open Graph image (PNG 1200x630)
+- Open Graph image
 - Canonical URL
 - Mobile-friendly viewport
 
 ## 📱 Responsive Breakpoints
-
-```css
-900px  — Tablets: nav principal oculta, footer single-column
-600px  — Mobile: scrollbar hidden, footer reorganizado, padding reducido
-```
 
 ## 🎯 Variables CSS Principales
 
@@ -89,19 +63,8 @@ Botones para contacto: Email + WhatsApp con mensaje pre-armado
 ## 🚀 Deployment
 
 ### Producción (geconsas.com)
-1. Subir archivos vía file manager (cPanel/FTP)
-2. Respetar estructura de carpetas:
-   - `index.html` en raíz
-   - `css/styles.css` en carpeta `css/`
-   - `js/script.js` en carpeta `js/`
-   - `assets/` en carpeta `assets/`
-3. Hard refresh en navegador: `Ctrl+Shift+R`
 
 ### Meta Sharing Debugger
-Cuando actualices contenido, re-scrapea la URL en:
-https://developers.facebook.com/tools/debug/
-
-Para forzar nueva preview image cuando cambies og:cover.png.
 
 ## 🔗 URLs de Redes Sociales
 
@@ -112,43 +75,13 @@ Actualizar en footer (`.site-footer__social`):
 
 ## 📊 Analytics
 
-- **Meta Pixel ID**: Reemplazar `TU_PIXEL_ID_GECONSAS` con ID real
-- **GA4**: Configurar en script del sitio (actualmente no incluido)
-
-## 📧 Contacto
-
-**Email**: administracion@gecons.com  
-**WhatsApp**: +54 9 351 611 4349
-
-## 📝 Notas de Desarrollo
-
-- **Sin comentarios** en código (requerimiento específico)
-- **BEM naming** para clases CSS
-- **Smooth scroll** habilitado (scroll-behavior: smooth)
-- **Overscroll-behavior** controlado en mobile
-- **SVG logos** sin fondo (transparent)
+- **Meta Pixel ID**
+G4M
 
 ## 🔄 Control de Versiones
-
-```bash
-git clone https://github.com/milemonson/PresentationGeconsSolucionesInformaticas.git
-cd Portfolio
-git add .
-git commit -m "descripción del cambio"
-git push origin main
-```
-
 ### .gitignore
-```
-.claude
-node_modules/
-.env
 ```
 
 ## 📄 Licencia
 
-© 2026 Geconsas. Todos los derechos reservados.
-
----
-
-**Construido, medido y optimizado** ✨
+© 2026 Geconsas. Todos los derechos reservados. ✨
