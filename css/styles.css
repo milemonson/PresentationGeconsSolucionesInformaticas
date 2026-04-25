@@ -6,7 +6,7 @@
     --line: #d8d6cd;
     --accent: #ff5b1f;
     --serif: "Inter", system-ui, sans-serif;
-    --sans: "Inter", system-ui, sans-serif;
+    --sans: "Inter", system-ui, sans-serif ; 
     --radius: 18px;
     --container: 1240px;
     --gutter: 24px;
