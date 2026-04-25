@@ -1092,19 +1092,9 @@ em {
     }
 
     .site-footer__top {
-        grid-template-columns: 80px 1fr;
+        grid-template-columns: 1fr;
         text-align: center;
         gap: 24px;
-    }
-
-    .site-footer__model {
-        grid-column: 1;
-        grid-row: 1 / 4;
-    }
-
-    .model-canvas {
-        width: 80px;
-        height: 80px;
     }
 
     .site-footer nav {
