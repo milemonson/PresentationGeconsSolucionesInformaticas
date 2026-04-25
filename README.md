@@ -76,7 +76,7 @@ Actualizar en footer (`.site-footer__social`):
 ## 📊 Analytics
 
 - **Meta Pixel ID**
-G4M
+- **G4M**
 
 ## 🔄 Control de Versiones
 ### .gitignore
