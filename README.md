@@ -45,7 +45,7 @@ Botones para contacto: Email + WhatsApp con mensaje pre-armado
 - Schema.org Organization + WebSite + FAQPage
 - Open Graph image
 - Canonical URL
-- Mobile-friendly viewport
+- Mobile-friendly viewportgit 
 
 ## 📱 Responsive Breakpoints
 
