@@ -45,9 +45,20 @@ Botones para contacto: Email + WhatsApp con mensaje pre-armado
 - Schema.org Organization + WebSite + FAQPage
 - Open Graph image
 - Canonical URL
-- Mobile-friendly viewport
+- Mobile-friendly viewportgit 
 
 ## 📱 Responsive Breakpoints
+
+## 🎯 Variables CSS Principales
+
+```css
+--bg: #f5f3ee          /* Fondo claro */
+--ink: #1a1a1a         /* Texto oscuro */
+--accent: #ff5b1f      /* Naranja gecons */
+--serif: "Inter"       /* Font family */
+--container: 1240px    /* Max-width */
+--radius: 18px         /* Border radius */
+```
 
 ## 🚀 Deployment
 
@@ -56,6 +67,8 @@ Botones para contacto: Email + WhatsApp con mensaje pre-armado
 ### Meta Sharing Debugger
 
 ## 🔗 URLs de Redes Sociales
+
+Actualizar en footer (`.site-footer__social`):
 - Instagram: `https://instagram.com/gecons`
 - LinkedIn: `https://linkedin.com/company/gecons`
 - Facebook: `https://facebook.com/gecons`
@@ -63,8 +76,11 @@ Botones para contacto: Email + WhatsApp con mensaje pre-armado
 ## 📊 Analytics
 
 - **Meta Pixel ID**
--  **GA4**
+- **G4M**
+
 ## 🔄 Control de Versiones
+### .gitignore
+```
 
 ## 📄 Licencia
 
