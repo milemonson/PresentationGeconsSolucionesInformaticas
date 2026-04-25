@@ -1027,24 +1027,6 @@ em {
     color: var(--ink);
 }
 
-.site-footer__model {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    user-select: none;
-}
-
-.model-canvas {
-    width: 120px;
-    height: 120px;
-    display: block;
-    transition: filter 0.3s ease;
-}
-
-.model-canvas:hover {
-    filter: drop-shadow(0 0 20px rgba(255, 91, 31, 0.5));
-}
 
 .site-footer__social {
     display: flex;
